@@ -1,0 +1,1271 @@
+@media (max-width: 992px){
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Patrick+Hand&display=swap');
+    /* default style*/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .head{
+        max-width: 100%;
+        height: auto;
+    }
+    /* header start */
+    header{
+        background-color: black;
+         height:auto;
+         max-width: 100%;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .menu-logo img {
+       width: 15%;
+       height: auto;
+        margin:1rem 4rem;
+    }
+    .menu-link ul{
+        display: flex;
+        padding:1rem auto ;
+        gap: 1rem;
+        font-size: 18px;
+      
+    }
+    .menu-link ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu-link ul li a:hover{
+        color:blueviolet;
+    }
+    .menu-link ul li a:focus{
+        color: rgb(198, 49, 32);
+    }
+    .baner::-webkit-scrollbar {
+        display: none;
+      }
+      .baner{    
+        height: 40vh;
+        overflow: scroll;
+      }
+      .banner .baner .baner1{
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+      }
+      .baner1:nth-child(1){
+        background-image: url(./img/banner-show-one.png);
+       
+      }
+      .baner1:nth-child(2){
+        background-image: url(./img/banner-show-two.jpeg);
+        
+      }
+      .baner1:nth-child(3){
+        background-image: url(./img/banner-show-three.jpg);
+      
+      }
+      
+      .baner-nom1{
+        padding: 10px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 15px;
+    
+      }
+      
+      .baner-nom2{
+        padding: 20px 20px 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 15px;
+       
+      }
+      
+      .baner-nom3{
+        padding: 40px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 15px;
+       
+      }
+      
+    .baner-img img{
+        width:  13%;
+        height: auto;
+        margin-left:44%;
+        padding-top: 8%;
+    }
+    .baner-img{
+      overflow: hidden;
+      opacity: 0,4;
+    
+    }
+    .baner-img:hover img{
+      transform: scale(1.11);
+     transition: 0.1s;
+    }
+    /* .card{
+      padding-top: 10%;
+    } */
+    .search{
+      display: flex;
+      justify-content: center;
+       padding: 1rem;
+    }
+    .search input{
+      width: 700px ;
+      height: 30px;
+      font-size: 20px;
+      border-radius: 6px ;
+      border: 1px solid  rgb(98, 0, 255);
+       border: 0px;
+    }
+    .search-border{
+      display: flex;
+    }
+    .search-border input:hover{
+      box-shadow: 2px 2px 2px 2px rgb(98, 0, 255);
+      border-radius: 5px 5px 5px 5px;
+    
+    }
+    .search i{
+      padding: 10px 15px;
+      color: white;
+      background-color: rgb(98, 0, 255);
+      width: 50px;
+      font-size: 20px;
+      height: 30px;
+      right: 50px;
+      border-radius: 0px 6px 6px 0px;
+      position: relative;
+    }
+     
+    .bottom{
+      display: flex;
+      justify-content: center;
+     }
+    .button-bg{
+      display: flex;
+      background: rgb(222 222, 222);
+      width: 300px;
+      height: 40px;
+      justify-content: space-around;
+      border-radius: 10px;
+      margin: 0px 20px 18px 0px;
+    }
+    .bottom button{
+      padding-top: .3rem;
+      height: 15px;
+      border-radius: 10px;
+      font-size: 15px;
+      background: rgb(222, 222, 222);
+      border: 0px;
+      width: 30px;
+    }
+    .bottom button:focus{
+      width: 60px;
+      border-radius: 50px;
+      
+      background-color: white;
+      height: 40px;
+      transition: 0.1s;
+    }
+    /* header end */
+    
+    /* main start */
+    .movies{
+      width:100%    ;
+      height:auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 3rem 1rem 1rem 2rem;
+    }
+    .box{
+      width: 29%;
+      margin:1rem auto;
+      height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: black;
+    }
+ 
+  .box1{
+    width: 29%;
+   margin:1% 67% 0% 0%;
+    height: 500px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: black;
+  }
+    .box-img img{
+      width: 100%;
+      padding: 8px 8px 8px 8px ;
+      height: 55vh;
+    }
+    .box-img:hover img{
+      transform: scale(0.95);
+      transition: 0.8s;
+    }
+    .box-logo{
+      padding-left: 1rem;
+    }
+    .box-logo p{
+      font-size: 20px;
+      color: white;
+    }
+    .box-logo a {
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+    }
+    .box-logo a:hover{
+      color: rgb(98, 0, 255);
+    }
+    .box-logo a:focus{
+      color: rgb(198, 49, 32);
+    }
+    /* main end */
+    /* footer start */
+    footer{
+      font-size: 15px;
+      width: 100%;
+      margin-top: 5rem;
+      height:50px;
+      padding-top: 5px;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    /* footer end */
+     
+  }
+  @media (max-width: 768px){
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Patrick+Hand&display=swap');
+    /* default style*/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .head{
+        max-width: 100%;
+        height: auto;
+    }
+    /* header start */
+    header{
+        background-color: black;
+         height:auto;
+     
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .menu-logo img {
+       width: 12%;
+       height: auto;
+        margin:1rem 5rem;
+    }
+    .menu-link ul{
+        display: flex;
+        padding:1rem auto ;
+        gap: 1rem;
+        font-size: 16px;
+      
+    }
+    .menu-link ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu-link ul li a:hover{
+        color:blueviolet;
+    }
+    .menu-link ul li a:focus{
+        color: rgb(198, 49, 32);
+    }
+    .baner::-webkit-scrollbar {
+        display: none;
+      }
+      .baner{    
+        height: 35vh;
+        overflow: scroll;
+      }
+      .banner .baner .baner1{
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+      }
+      .baner1:nth-child(1){
+        background-image: url(./img/banner-show-one.png);
+       
+      }
+      .baner1:nth-child(2){
+        background-image: url(./img/banner-show-two.jpeg);
+        
+      }
+      .baner1:nth-child(3){
+        background-image: url(./img/banner-show-three.jpg);
+      
+      }
+      
+      .baner-nom1{
+        padding: 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 12px;
+    
+      }
+      
+      .baner-nom2{
+        padding: 50px 20px 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 12px;
+       
+      }
+      
+      .baner-nom3{
+        padding: 99px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 12px;
+       
+      }
+      
+    .baner-img img{
+        width:  13%;
+        height: auto;
+        margin-left:44%;
+        padding-top: 8%;
+    }
+    .baner-img{
+      overflow: hidden;
+      opacity: 0,4;
+    
+    }
+    .baner-img:hover img{
+      transform: scale(1.11);
+     transition: 0.1s;
+    }
+    /* .card{
+      padding-top: 10%;
+    } */
+    .search{
+      display: flex;
+      justify-content: center;
+       padding: 1rem;
+    }
+    .search input{
+      width: 500px ;
+      height: 25px;
+      font-size: 15px;
+      border-radius: 4px ;
+      border: 1px solid  rgb(98, 0, 255);
+       border: 0px;
+    }
+    .search-border{
+      display: flex;
+    }
+    .search-border input:hover{
+      box-shadow: 2px 2px 2px 2px rgb(98, 0, 255);
+      border-radius: 5px 5px 5px 5px;
+    
+    }
+    .search i{
+      padding: 10px 15px;
+      color: white;
+      background-color: rgb(98, 0, 255);
+      width: 35px;
+      font-size: 20px;
+      height: 25px;
+      right: 20px;
+      border-radius: 0px 6px 6px 0px;
+      position: relative;
+    }
+     
+    .bottom{
+      display: flex;
+      justify-content: center;
+     }
+    .button-bg{
+      display: flex;
+      background: rgb(222 222, 222);
+      width: 250px;
+      height: 30px;
+      justify-content: space-around;
+      border-radius: 10px;
+      margin: 0px 18px 15px 0px;
+    }
+    .bottom button{
+      padding-top: .3rem;
+      height: 15px;
+      border-radius: 10px;
+      font-size: 13px;
+      background: rgb(222, 222, 222);
+      border: 0px;
+      width: 30px;
+    }
+    .bottom button:focus{
+      width: 50px;
+      border-radius: 10px;
+      
+      background-color: white;
+      height: 30px;
+      transition: 0.1s;
+    }
+    /* header end */
+    
+    /* main start */
+    .movies{
+      width:100%    ;
+      height:auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 0rem 1rem 1rem 2rem;
+    }
+    .movies{
+        margin-top: 2rem;
+    }
+    .box{
+      width: 29%;
+      margin:1rem auto;
+      height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: black;
+    }
+  .box1{
+
+    width: 29%;
+    margin:1% 67% 0% 0%;
+    height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: black;
+  }
+    .box-img img{
+      width: 100%;
+      padding: 8px 8px 8px 8px ;
+      height: 45vh;
+    }
+    .box-img:hover img{
+      transform: scale(0.95);
+      transition: 0.8s;
+    }
+    .box-logo{
+      padding-left: 1.5rem;
+    }
+    .box-logo p{
+      font-size: 16px;
+      color: white;
+    }
+    .box-logo a {
+      text-decoration: none;
+      font-size: 19px;
+      color: white;
+    }
+    .box-logo a:hover{
+      color: rgb(98, 0, 255);
+    }
+    .box-logo a:focus{
+      color: rgb(198, 49, 32);
+    }
+    /* main end */
+    /* footer start */
+    footer{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 5rem;
+      height:50px;
+      padding: 5px ;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    /* footer end */
+     
+  }
+  @media (max-width:530px) {
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Patrick+Hand&display=swap');
+    /* default style*/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .head{
+        max-width: 100%;
+        height: auto;
+    }
+    /* header start */
+    header{
+        background-color: black;
+         height:auto;
+     
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .menu-logo img {
+       width: 20%;
+       height: auto;
+        margin:1rem 5rem;
+    }
+    .menu-link ul{
+        display: flex;
+        padding:1rem auto ;
+        gap: 1rem;
+        font-size: 16px;
+      
+    }
+    .menu-link ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu-link ul li a:hover{
+        color:blueviolet;
+    }
+    .menu-link ul li a:focus{
+        color: rgb(198, 49, 32);
+    }
+    .baner::-webkit-scrollbar {
+        display: none;
+      }
+      .baner{    
+        height:25vh;
+        overflow: scroll;
+      }
+      .banner .baner .baner1{
+        height: 45vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+      }
+      .baner1:nth-child(1){
+        background-image: url(./img/banner-show-one.png);
+       
+      }
+      .baner1:nth-child(2){
+        background-image: url(./img/banner-show-two.jpeg);
+        
+      }
+      .baner1:nth-child(3){
+        background-image: url(./img/banner-show-three.jpg);
+      
+      }
+      
+      .baner-nom1{
+        padding: 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 12px;
+    
+      }
+      
+      .baner-nom2{
+        padding: 0px 20px 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 12px;
+       
+      }
+      
+      .baner-nom3{
+        padding: 80px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 12px;
+       
+      }
+      
+    .baner-img img{
+        width:  13%;
+        height: auto;
+        margin-left:44%;
+        padding-top: 8%;
+    }
+    .baner-img{
+      overflow: hidden;
+      opacity: 0,4;
+    
+    }
+    .baner-img:hover img{
+      transform: scale(1.11);
+     transition: 0.1s;
+    }
+    /* .card{
+      padding-top: 10%;
+    } */
+    .search{
+      display: flex;
+      justify-content: center;
+       padding: 1rem;
+    }
+    .search input{
+      width: 300px ;
+      height: 25px;
+      font-size: 15px;
+      border-radius: 4px ;
+      border: 1px solid  rgb(98, 0, 255);
+       border: 0px;
+    }
+    .search-border{
+      display: flex;
+    }
+    .search-border input:hover{
+      box-shadow: 2px 2px 2px 2px rgb(98, 0, 255);
+      border-radius: 5px 5px 5px 5px;
+    
+    }
+    .search i{
+      padding: 10px 15px;
+      color: white;
+      background-color: rgb(98, 0, 255);
+      width: 35px;
+      font-size: 20px;
+      height: 25px;
+      right: 20px;
+      border-radius: 0px 6px 6px 0px;
+      position: relative;
+    }
+     
+    .bottom{
+      display: flex;
+      justify-content: center;
+     }
+    .button-bg{
+      display: flex;
+      background: rgb(222 222, 222);
+      width: 200px;
+      height: 30px;
+      justify-content: space-around;
+      border-radius: 10px;
+      margin: 0px 18px 15px 0px;
+    }
+    .bottom button{
+      padding-top: .3rem;
+      height: 15px;
+      border-radius: 10px;
+      font-size: 13px;
+      background: rgb(222, 222, 222);
+      border: 0px;
+      width: 30px;
+    }
+    .bottom button:focus{
+      width: 50px;
+      border-radius: 10px;
+      
+      background-color: white;
+      height: 30px;
+      transition: 0.1s;
+    }
+    /* header end */
+    
+    /* main start */
+    .movies{
+      width:100%    ;
+      height:auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 0rem 1rem 1rem 2rem;
+    }
+    .movies{
+        margin-top: 2rem;
+    }
+    .box{
+      width: 46%;
+      margin:1rem auto;
+      height: 420px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: black;
+    }
+  .box1{
+
+    width: 46%;
+    margin:1rem auto;
+    height: 420px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background-color: black;
+  }
+    .box-img img{
+      width: 100%;
+      padding: 8px 8px 8px 8px ;
+      height: 48vh;
+    }
+    .box-img:hover img{
+      transform: scale(0.95);
+      transition: 0.8s;
+    }
+    .box-logo{
+      padding-left: 1.5rem;
+    }
+    .box-logo p{
+      font-size: 16px;
+      color: white;
+    }
+    .box-logo a {
+      text-decoration: none;
+      font-size: 19px;
+      color: white;
+    }
+    .box-logo a:hover{
+      color: rgb(98, 0, 255);
+    }
+    .box-logo a:focus{
+      color: rgb(198, 49, 32);
+    }
+    /* main end */
+    /* footer start */
+    footer{
+      font-size: 12px;
+      width: 100%;
+      margin-top: 3rem;
+      height:50px;
+      padding: 5px ;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    /* footer end */
+     
+  }
+  @media (max-width:410px){
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Patrick+Hand&display=swap');
+    /* default style*/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .head{
+        max-width: 100%;
+        height: auto;
+    }
+    /* header start */
+    header{
+        background-color: black;
+         height:auto;
+     
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .menu-logo img {
+       width: 15%;
+       height: auto;
+        margin:1rem 5rem;
+    }
+    .menu-link ul{
+        display: flex;
+        padding:1rem auto ;
+        gap: 1rem;
+        font-size: 10px;
+      
+    }
+    .menu-link ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu-link ul li a:hover{
+        color:blueviolet;
+    }
+    .menu-link ul li a:focus{
+        color: rgb(198, 49, 32);
+    }
+    .baner::-webkit-scrollbar {
+        display: none;
+      }
+      .baner{    
+        height: 15vh;
+        overflow: scroll;
+      }
+      .banner .baner .baner1{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+      }
+      .baner1:nth-child(1){
+        background-image: url(./img/banner-show-one.png);
+       
+      }
+      .baner1:nth-child(2){
+        background-image: url(./img/banner-show-two.jpeg);
+        
+      }
+      .baner1:nth-child(3){
+        background-image: url(./img/banner-show-three.jpg);
+      
+      }
+      
+      .baner-nom1{
+        padding: 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 6px;
+    
+      }
+      
+      .baner-nom2{
+        padding: 50px 20px 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 6px;
+       
+      }
+      
+      .baner-nom3{
+        padding: 99px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 6px;
+       
+      }
+      
+    .baner-img img{
+        width:  13%;
+        height: auto;
+        margin-left:44%;
+        padding-top: 8%;
+    }
+    .baner-img{
+      overflow: hidden;
+      opacity: 0,4;
+    
+    }
+    .baner-img:hover img{
+      transform: scale(1.11);
+     transition: 0.1s;
+    }
+    /* .card{
+      padding-top: 10%;
+    } */
+    .search{
+      display: flex;
+      justify-content: center;
+       padding: 1rem;
+    }
+    .search input{
+      width: 250px ;
+      height: 15px;
+      font-size: 10px;
+      border-radius: 4px ;
+      border: 1px solid  rgb(98, 0, 255);
+       border: 0px;
+    }
+    .search-border{
+      display: flex;
+    }
+    .search-border input:hover{
+      box-shadow: 2px 2px 2px 2px rgb(98, 0, 255);
+      border-radius: 4px 4px 4px 4px;
+    
+    }
+    .search i{
+      padding: 8px 10px;
+      color: white;
+      background-color: rgb(98, 0, 255);
+      width: 20px;
+      font-size: 10px;
+      height: 5px;
+      right: 20px;
+      border-radius: 0px 4px 4px 0px;
+      position: relative;
+    }
+     
+    .bottom{
+      display: flex;
+      justify-content: center;
+     }
+    .button-bg{
+      display: flex;
+      background: rgb(222 222, 222);
+      width: 100px;
+      height: 20px;
+      justify-content: space-around;
+      border-radius: 4px;
+      margin: 0px 10px 10px 0px;
+    }
+    .bottom button{
+      padding-top: .3rem;
+      height: 15px;
+      border-radius: 10px;
+      font-size: 8px;
+      background: rgb(222, 222, 222);
+      border: 0px;
+      width: 30px;
+    }
+    .bottom button:focus{
+      width: 50px;
+      border-radius: 10px;
+      
+      background-color: white;
+      height: 30px;
+      transition: 0.1s;
+    }
+    /* header end */
+    
+    /* main start */
+    .movies{
+      width:100%    ;
+      height:auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 0rem 1rem 1rem 2rem;
+    }
+   
+    
+    .box{
+      width: 78%;
+      margin:1rem;
+      height: 380px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: black;
+    }
+  .box1{
+
+    width: 78%;
+    margin:1rem;
+    height: 380px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: black;
+  }
+    .box-img img{
+      width: 100%;
+      padding: 4px 4px 4px 4px ;
+      height: 45vh;
+    }
+    .box-img:hover img{
+      transform: scale(0.95);
+      transition: 0.8s;
+    }
+    .box-logo{
+      padding-left: 1.5rem;
+    }
+    .box-logo p{
+      font-size: 16px;
+      color: white;
+    }
+    .box-logo a {
+      text-decoration: none;
+      font-size: 19px;
+      color: white;
+    }
+    .box-logo a:hover{
+      color: rgb(98, 0, 255);
+    }
+    .box-logo a:focus{
+      color: rgb(198, 49, 32);
+    }
+    /* main end */
+    /* footer start */
+    footer{
+      font-size: 8px;
+      width: 100%;
+      margin-top: 3rem;
+      height:40px;
+      padding: 5px ;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    /* footer end */
+     
+  }
+  
+  @media (max-width:370px){
+    @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Patrick+Hand&display=swap');
+    /* default style*/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .head{
+        max-width: 100%;
+        height: auto;
+    }
+    /* header start */
+    header{
+        background-color: black;
+         height:auto;
+     width: 100%;
+     padding: 0; overflow: hidden;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .menu-logo img {
+       width: 15%;
+       height: auto;
+        margin:1rem 5rem;
+    }
+    .menu-link ul{
+        display: flex;
+        padding:1rem auto ;
+        gap: 1rem;
+        font-size: 10px;
+      
+    }
+    .menu-link ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .menu-link ul li a:hover{
+        color:blueviolet;
+    }
+    .menu-link ul li a:focus{
+        color: rgb(198, 49, 32);
+    }
+    .baner::-webkit-scrollbar {
+        display: none;
+      }
+      .baner{    
+        height: 15vh;
+        overflow: scroll;
+      }
+      .banner .baner .baner1{
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+      }
+      .baner1:nth-child(1){
+        background-image: url(./img/banner-show-one.png);
+       
+      }
+      .baner1:nth-child(2){
+        background-image: url(./img/banner-show-two.jpeg);
+        
+      }
+      .baner1:nth-child(3){
+        background-image: url(./img/banner-show-three.jpg);
+      
+      }
+      
+      .baner-nom1{
+        padding: 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 6px;
+    
+      }
+      
+      .baner-nom2{
+        padding: 50px 20px 20px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 6px;
+       
+      }
+      
+      .baner-nom3{
+        padding: 99px 20px;
+        font-weight: 400;
+        color: rgb(176, 0, 199); 
+        opacity: 0.7;
+        font-size: 6px;
+       
+      }
+      
+    .baner-img img{
+        width:  13%;
+        height: auto;
+        margin-left:44%;
+        padding-top: 8%;
+    }
+    .baner-img{
+      overflow: hidden;
+      opacity: 0,4;
+    
+    }
+    .baner-img:hover img{
+      transform: scale(1.11);
+     transition: 0.1s;
+    }
+  
+    .search{
+      display: flex;
+      justify-content: center;
+       padding: 1rem;
+    }
+    .search input{
+      width: 92% ;
+      height: 15px;
+      font-size: 10px;
+      border-radius: 4px ;
+      border: 1px solid  rgb(98, 0, 255);
+       border: none;
+    }
+    .search-border{
+      display: flex;
+    }
+    .search-border input:hover{
+      box-shadow: 2px 2px 2px 2px rgb(98, 0, 255);
+      border-radius: 4px 4px 4px 4px;
+    
+    }
+    .search i{
+      padding: 8px 10px;
+      color: white;
+      background-color: rgb(98, 0, 255);
+      width: 20px;
+      font-size: 10px;
+      height: 5px;
+      right: 20px;
+      border-radius: 0px 4px 4px 0px;
+      position: relative;
+    }
+     
+    .bottom{
+      display: flex;
+      justify-content: center;
+     }
+    .button-bg{
+      display: flex;
+      background: rgb(222 222, 222);
+      width: 33%;
+      height: 20px;
+      justify-content: space-around;
+      border-radius: 4px;
+      margin: 0px 10px 10px 0px;
+    }
+    .bottom button{
+      padding-top: .3rem;
+      height: 15px;
+      border-radius: 10px;
+      font-size: 8px;
+      background: rgb(222, 222, 222);
+      border: 0px;
+      width: 30px;
+    }
+    .bottom button:focus{
+      width: 50px;
+      border-radius: 10px;
+      
+      background-color: white;
+      height: 30px;
+      transition: 0.1s;
+    }
+    /* header end */
+    
+    /* main start */
+    .movies{
+      width:100%    ;
+      height:auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 0rem 1rem 1rem 2rem;
+    }
+   
+    
+    .box{
+      width: 78%;
+      margin:1rem;
+      height: 380px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: black;
+    }
+  .box1{
+
+    width: 78%;
+    margin:1rem;
+    height: 380px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: black;
+  }
+    .box-img img{
+      width: 100%;
+      padding: 4px 4px 4px 4px ;
+      height: 45vh;
+    }
+    .box-img:hover img{
+      transform: scale(0.95);
+      transition: 0.8s;
+    }
+    .box-logo{
+      padding-left: 1.5rem;
+    }
+    .box-logo p{
+      font-size: 16px;
+      color: white;
+    }
+    .box-logo a {
+      text-decoration: none;
+      font-size: 19px;
+      color: white;
+    }
+    .box-logo a:hover{
+      color: rgb(98, 0, 255);
+    }
+    .box-logo a:focus{
+      color: rgb(198, 49, 32);
+    }
+    /* main end */
+    /* footer start */
+    footer{
+      font-size: 8px;
+      width: 100%;
+      margin-top: 3rem;
+      height:40px;
+      padding: 5px ;
+      text-align: center;
+      background-color: black;
+      color: white;
+    }
+    /* footer end */
+     
+  }
+  
